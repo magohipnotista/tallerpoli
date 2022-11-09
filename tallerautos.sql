@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-11-2022 a las 08:42:46
+-- Tiempo de generación: 09-11-2022 a las 02:11:01
 -- Versión del servidor: 10.4.25-MariaDB
 -- Versión de PHP: 7.4.30
 
@@ -128,7 +128,9 @@ INSERT INTO `ingreso` (`id`, `nombre_cliente`, `cedula`, `telefono`, `marca_auto
 (1, 'CAMILO CALDERON', '80814376', '3104018593', 'CITROEN', 'JSW 339', '2022', 'ROJO', 'Silvia Patricia Fernandez Guerra', 'vista/imagenes/autos/CAMILOCALDERON.jpg', 'SI', '2', 'SI', '2', 'SI', '2', 'SI', '2', 'SI', '2', 'SI', '2', 'SI', '2', 'SI', '2', 'SI', '2', '12', '10000', 'SilviaPatriciaFernandezGuerra340767edit', '340767', '340767down', '2022-11-08 05:33:28'),
 (2, 'PAOLA CIFUENTES', '52418737', '3144187981', 'MAZDA', 'JSS344', '2000', 'NEGRO', 'Nicolas Jimenez Quintero', 'vista/imagenes/autos/PAOLACIFUENTES.jpg', 'SI', '1', 'NO', '0', 'NO', '0', 'SI', '4', 'SI', '4', 'NO', '0', 'SI', '1', 'SI', '2', 'SI', '1', '5', '15000', 'NicolasJimenezQuintero10660edit', '10660', '10660down', '2022-11-08 05:41:06'),
 (3, 'PEDRO GOMEZ', '45798632', '3214789654', 'AUDI', 'JSS233', '2022', 'GRIS', 'Silvia Patricia Fernandez Guerra', 'vista/imagenes/autos/PEDROGOMEZ.jpg', 'NO', '0', 'NO', '0', 'NO', '0', 'SI', '2', 'SI', '4', 'NO', '0', 'SI', '1', 'NO', '0', 'NO', '0', '3', '12000', 'SilviaPatriciaFernandezGuerra516053edit', '516053', '516053down', '2022-11-08 06:04:37'),
-(4, 'OSCAR RODRIGUEZ', '54819746', '3144568974', 'CHEVROLET', 'JSS456', '2000', 'ROJO', 'Paola Andrea Correa Quintero', 'vista/imagenes/autos/OSCARRODRIGUEZ.jpg', 'SI', '1', 'NO', '0', 'SI', '2', 'SI', '3', 'SI', '2', 'NO', '0', 'SI', '1', 'SI', '1', 'SI', '1', '6', '15000', 'PaolaAndreaCorreaQuintero888708edit', '888708', '888708down', '2022-11-08 07:18:23');
+(4, 'OSCAR RODRIGUEZ', '54819746', '3144568974', 'CHEVROLET', 'JSS456', '2000', 'ROJO', 'Paola Andrea Correa Quintero', 'vista/imagenes/autos/OSCARRODRIGUEZ.jpg', 'SI', '1', 'NO', '0', 'SI', '2', 'SI', '3', 'SI', '2', 'NO', '0', 'SI', '1', 'SI', '1', 'SI', '1', '6', '15000', 'PaolaAndreaCorreaQuintero888708edit', '888708', '888708down', '2022-11-08 07:18:23'),
+(11, 'PEDRO LOPEZ', '808142654', '654654', 'TEST', 'TEST', 'YETS', 'DFSDF', 'Nicolas Jimenez Quintero', 'vista/imagenes/subirFoto.png', 'SI', '2', 'NO', '0', 'NO', '0', 'SI', '2', 'NO', '0', 'NO', '0', 'SI', '2', 'NO', '0', 'SI', '2', '5', '5000', 'NicolasJimenezQuintero943621edit', '943621', '943621down', '2022-11-08 23:57:39'),
+(12, 'TEST', '80814376', '310413565', 'TOYOTA', 'JHG344', '2000', 'RPOJO', 'Nicolas Jimenez Quintero', 'vista/imagenes/subirFoto.png', 'SI', '1', 'SI', '1', 'SI', '18', 'SI', '1', 'SI', '1', 'SI', '1', 'SI', '1', 'SI', '1', 'SI', '1', '4', '34000', 'NicolasJimenezQuintero197714edit', '197714', '197714down', '2022-11-09 00:25:04');
 
 --
 -- Índices para tablas volcadas
@@ -172,7 +174,7 @@ ALTER TABLE `facturas`
 -- AUTO_INCREMENT de la tabla `ingreso`
 --
 ALTER TABLE `ingreso`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

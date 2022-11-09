@@ -121,7 +121,6 @@ ob_start();
         <!-- JQVMap -->
         <script src="vista/plugins/jqvmap/jquery.vmap.min.js"></script>
         <script src="vista/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
-
         <!-- daterangepicker -->
         <script src="vista/plugins/moment/moment.min.js"></script>
         <script src="vista/plugins/daterangepicker/daterangepicker.js"></script>
@@ -134,12 +133,10 @@ ob_start();
         <!-- AdminLTE App -->
         <script src="vista/dist/js/adminlte.js"></script>
         <script src="https://kit.fontawesome.com/cdda3a2000.js" crossorigin="anonymous"></script>
-
         <script src="vista/dist/simple-lightbox.min.js"></script>
         <!-- For legacy browsers -->
         <script src="vista/dist/simple-lightbox.legacy.min.js"></script>
         <!-- As A jQuery Plugin -->
-
         <script src="vista/dist/simple-lightbox.jquery.min.js"></script>
         <script src="vista/dist/js/styles.js"></script>
 </body>
