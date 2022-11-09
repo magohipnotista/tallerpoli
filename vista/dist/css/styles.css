@@ -1,0 +1,69 @@
+.iconifno{
+    font-size: 25px;
+    color: white!important;
+   
+}
+.rowdetails{
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: antiquewhite;
+    color: black;
+    margin-left: 20px;
+    box-shadow: 10px 16px #51557E;
+}
+.separador{
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 50%;
+}
+.factura{
+    border: 2px solid white;
+}
+.error{
+    font-size: 500px;
+     text-shadow: 10px 16px #51557E;
+}
+/*=============================================
+TABLET HORIZONTAL (LG revisamos en 1024px)
+=============================================*/
+/* BARRASUPERIOR */
+@media (max-width:1199px) and (min-width:992px) {
+    .error{
+        font-size: 300px;
+         text-shadow: 10px 16px #51557E;
+    } 
+}
+
+/*=============================================
+TABLET VERTICAL (MD revisamos en 768px)
+=============================================*/
+/* BARRASUPERIOR */
+@media (max-width:991px) and (min-width:768px) {
+    .error{
+        font-size: 200px;
+         text-shadow: 10px 16px #51557E;
+    }
+}
+
+/*=============================================
+MÓVIL HORIZONTAL (SM revisamos en 576px)
+=============================================*/
+/* BARRASUPERIOR */
+@media (max-width:767px) and (min-width:576px) {
+    .error{
+        font-size: 200px;
+         text-shadow: 10px 16px #51557E;
+    }
+}
+
+/*=============================================
+MOVIL VERTICAL (revisamos en 320px)
+=============================================*/
+/* BARRASUPERIOR */
+@media (max-width:575px) {
+    .error{
+    font-size: 200px;
+     text-shadow: 10px 16px #51557E;
+}
+}
